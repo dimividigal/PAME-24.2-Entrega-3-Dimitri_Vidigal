@@ -1,6 +1,7 @@
 import Sidebar from "@/app/components/sidebar"
 import Image from "next/image"
 import usuario from "../../../../public/usuario.png"
+import Sbar from "@/app/components/sbar"
 
 
 export default function(){
@@ -9,8 +10,8 @@ export default function(){
 
     /*onde tudo da pagina se localiza, colocando a sidebar e o restante da pagina*/
     <div className=" bg-white flex flex-row">
-      <Sidebar></Sidebar>
-      <div className="grow flex flex-col bg-white">
+      <Sbar />
+      <div className="grow flex flex-col h-screen bg-white">
         {/*parte que contem a caixa de pesquisa*/}
         <div className="h-[100px] grow-2 border-b-2 flex justify-center items-center">
               <Image className="w-[40px] h-[40px] m-3" src={usuario} alt="usuario"></Image>
@@ -33,7 +34,7 @@ export default function(){
               <div className="flex flex-row">
                 <h3 className="mr-4 text-black font-sans">Senha: ******</h3>
                 <button className="mr-8 text-blue-800 font-sans font-bold">Ver email</button>
-                <button className="mr-4 text-blue-800 font-sans font-bold"> Alterar email</button>
+                <button className="mr-4 text-blue-800 font-sans font-bold">Alterar email</button>
               </div>
 
             </div>

@@ -1,12 +1,14 @@
 import Sidebar from "@/app/components/sidebar"
 import InputPadrao from "@/app/components/caixatexto"
 import Link from "next/link"
+import Sbar from "@/app/components/sbar"
+
 export default function(){
 
   return(
 
     <div className=" bg-orange-600 h-screen w-screen flex flex-row">
-      <Sidebar></Sidebar>
+      <Sbar />
       
           <div className="bg-white grow-7 flex content-center grow justify-center flex-col flex-wrap">
 

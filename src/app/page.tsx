@@ -12,6 +12,7 @@ import casa42 from "../../public/casa42.png"
 import gostei from "../../public/like.png"
 import naogostei from "../../public/likevazio.png"
 import Image from "next/image"
+import Sbar from "./components/sbar"
 
 
 export default function(){
@@ -20,7 +21,7 @@ export default function(){
     /*onde tudo da pagina se localiza, colocando a sidebar e o restante da pagina*/
     <main>
     <div className=" bg-white flex flex-row">
-      <Sidebar></Sidebar>
+      <Sbar/>
       <div className="grow flex flex-col bg-white">
         {/*parte que contem a caixa de pesquisa*/}
         <div className="h-[100px] grow-2 border-b-2 flex justify-center items-center">
