@@ -29,7 +29,7 @@ export default function(){
         
           {/* parte que contem os anuncios */}
           <div className="bg-white grow-7 flex content-center grow justify-center flex-row flex-wrap">
-            <Anuncio foto={casa3} foto2={casa32} descricao={"Apartamento beira mar, uma suite e uma cozinha"} localizacao={"Copacabana"} preco={"R$2500/mes"} m2={"50m2"} nome={"Apartamento Casal"} like={gostei} route={"casa_1_detalhada"} ></Anuncio>
+            <Anuncio foto={casa3} foto2={casa32} descricao={"Apartamento beira mar, uma suite e uma cozinha"} localizacao={"Copacabana"} preco={"R$2500/mes"} m2={"50m2"} nome={"Apartamento Casal"} like={gostei} route={"casa_3_detalhada"} ></Anuncio>
             <Anuncio foto={casa2} foto2={casa21} descricao={"Casa completa e mobiliada, 4 quartos, 1 cozinha completa e quintal espaçoso."} localizacao={"Barra da Tijuca"} preco={"R$2500/mes"} m2={"250m2"} nome={"Casa na praia"} like={gostei} route={"casa_1_detalhada"} ></Anuncio>
           </div>     
         </div>
