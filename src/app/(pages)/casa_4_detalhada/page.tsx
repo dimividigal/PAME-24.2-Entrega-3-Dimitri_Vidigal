@@ -1,7 +1,7 @@
 import Sbar from "@/app/components/sbar"
 import Image from "next/image"
-import casa21 from "../../../../public/casa21.png"
-import casa2 from "../../../../public/casa2.jpg"
+import casa21 from "../../../../public/casa42.png"
+import casa2 from "../../../../public/casa4.jpeg"
 
 export default function(){
 
@@ -11,15 +11,14 @@ export default function(){
         <div className="grow flex flex-col h-fit p-10 pl-7 bg-white">
         
             <Sbar/>
-            
+                {/*aqui aonde ficam o nome dos imoveis */}
                 <div className=" h-[20vh] flex items-center border-2 ">
-                    {/*aqui aonde ficam os nomes dos imoveis */}
-                          <h1 className="text-black font-bold font-sans text-3xl">Casa na praia</h1>
+                          <h1 className="text-black font-bold font-sans text-3xl">Casa Paradisiaca</h1>
                 </div>
 
                 <div className=" md:w-[60vw] flex flex-col md:flex-row justify-between items-center h-fit">
-                    {/*aqui aonde ficam as imagens dos imoveis */}
                     <div className="w-80 h-60 overflow-y-scroll">
+                        {/*aqui aonde ficam as imagens dos imoveis */}
                         <Image src={casa2} alt={"casa"} className="w-80 h-60"></Image>
                         <Image src={casa21} alt={"casa"} className="w-80 h-60"></Image>
                     </div>
@@ -28,11 +27,11 @@ export default function(){
                     </iframe>
         
                 </div>
-                {/*aqui aonde ficam a descrição dos imoveis */}
                 <div className="flex flex-col justify-start items-start h-fit pt-4 border-2 p-4">
-                    <p className="font-bold font-sans text-black">Casa completa e mobiliada, 4 quartos, 1 cozinha 3 completa, 3 banheiros e quintal espaçoso. Perfeito ambiente para animais e crianças. Total de 250m2</p>
-                    <p className="font-bold font-sans text-black mt-2">Localização: Barra da Tijuca</p>
-                    <p className="font-bold font-sans text-black mt-2">Preço: R$2500</p>
+                    {/*aqui aonde ficam a descrição dos imoveis */}
+                    <p className="font-bold font-sans text-black">Uma verdadeira experiencia de rei, uma casa completa rodeada de belezas naturais, com 5 quartos 4 banheiros, cozinha, área de lazer, heliponto e praia privativa. Agende uma visita</p>
+                    <p className="font-bold font-sans text-black mt-2">Localização: Angra dos Reis</p>
+                    <p className="font-bold font-sans text-black mt-2">Preço: R$5000</p>
                     <button className="font-bold font-sans rounded-full mt-2 w-[100px] h-[30px] bg-blue-700">Alugue Aí!</button>
 
 

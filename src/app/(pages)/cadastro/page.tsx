@@ -1,4 +1,4 @@
-import Sidebar from "@/app/components/sidebar"
+
 import InputPadrao from "@/app/components/caixatexto"
 import Link from "next/link"
 import Sbar from "@/app/components/sbar"

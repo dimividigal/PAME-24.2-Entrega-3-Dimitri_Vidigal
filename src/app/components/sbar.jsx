@@ -7,7 +7,7 @@ import usuario from "../../../public/usuario.png"
 import LinkButton from "./loginbutton";
 
 export default function Sbar() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="relative">
