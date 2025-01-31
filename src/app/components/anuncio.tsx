@@ -1,7 +1,7 @@
-
+import Link from "next/link"
 
 import Image from "next/image"
-function Anuncio({foto,foto2,descricao,localizacao,m2,preco,nome,like}: any){
+function Anuncio({foto,foto2,descricao,localizacao,m2,preco,nome,like,route}: any){
 
 
     return(
@@ -19,7 +19,11 @@ function Anuncio({foto,foto2,descricao,localizacao,m2,preco,nome,like}: any){
             <h1 className="font-sans text-[13px] mr-2 text-black">{descricao}</h1>
             <h1 className="font-sans text-[14px] text-black">{m2}</h1>
             <div className="flex justify-center items-center">
-                <button className="font-sans bg-blue-700 rounded-full text-m font-bold text-white h-[30px] w-[80px]">Ver Mais!</button>
+
+                <Link href={route}>
+                    <button className="font-sans bg-blue-700 rounded-full text-m font-bold text-white h-[30px] w-[80px]">Ver Mais!</button>
+                </Link>
+
                 <button className="w-[40px] h-[40px] m-3"><Image src={like} alt=""></Image></button>
             </div>
             </div>

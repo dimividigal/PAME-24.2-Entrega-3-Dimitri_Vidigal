@@ -1,4 +1,4 @@
-import Sidebar from "@/app/components/sidebar"
+
 import Image from "next/image"
 import usuario from "../../../../public/usuario.png"
 import Sbar from "@/app/components/sbar"
@@ -20,7 +20,7 @@ export default function(){
         </div>
           {/* parte que contem os anuncios */}
           <div className="bg-white grow-7 flex content-center grow justify-center flex-row flex-wrap">
-            <div className="bg-white border-4 w-[500px] h-[400px] flex justify-start items-start p-4 flex-col">
+            <div className="bg-white border-4 w-[500px] h-[250px] flex justify-start items-start p-4 flex-col">
               <h1 className="text-black font-sans text-xl mb-4">Dados:</h1>
               <div>
                 <h2 className="text-black font-sans mt-4">Nome: NomeUsuario123</h2>
